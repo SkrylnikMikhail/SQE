@@ -9,12 +9,19 @@ public final class BubbleSort {
                 if (arr[j] > arr[j+1])
                 {
                     // swap arr[j+1] and arr[j]
-                    int temp = arr[j];
+                    int temp = arr[j];  
                     arr[j] = arr[j+1];
                     arr[j+1] = temp;
                 }
     }
 
+    public static void printArray(int arr[])
+    {
+        int n = arr.length;
+        for (int i=0; i<n; ++i)
+            System.out.print(arr[i] + " ");
+        System.out.println();
+    }
 
 
 }
