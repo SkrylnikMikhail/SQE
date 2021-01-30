@@ -5,16 +5,7 @@ import org.junit.jupiter.api.Test;
 
 public class SQETest {
 
-    @Test
-    public void testPrinting() {
-        int[] input = {5, 9, 4, 6, 5, 3};
-        int[] expectedResult = {3, 4, 5, 5, 6, 9};
 
-        BubbleSort.bubbleSort(input);
-        BubbleSort.printArray(input);
-
-        Assertions.assertArrayEquals(input, expectedResult);
-    }
 
     @Test
     public void testPositiveArray() {
